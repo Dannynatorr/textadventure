@@ -1,0 +1,16 @@
+{
+    "1":
+    {
+        "text":["das ist ein text","das ist ein anderer text","Texte sind wirklich toll, findest du nicht auch?"],
+      "options": [
+        [ "ja", "2" ],
+        [ "nein", "3" ],
+        [ "eventuell", "4" ]
+      ]
+    },
+     "2":
+    {
+        "text": ["du hast ja nein oder eventuell gesagt, toll","richtig toll"],
+        "options": [["japp","1"]]
+    }
+}

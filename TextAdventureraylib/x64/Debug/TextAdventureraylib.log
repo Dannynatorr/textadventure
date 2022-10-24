@@ -1,0 +1,59 @@
+﻿  Map.cpp
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(32,28): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(32,41): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(34,25): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(34,38): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(75,25): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(75,41): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(77,22): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(77,38): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(113,28): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(113,41): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(115,25): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(115,38): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(151,25): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(151,41): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(153,22): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(153,38): warning C4244: "Argument": Konvertierung von "float" in "const unsigned __int64", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(430,10): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(480,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(480,10): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(484,12): warning C4305: "+=": Verkürzung von "double" in "float"
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(488,12): warning C4305: "-=": Verkürzung von "double" in "float"
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(521,17): warning C4553: "==": Ergebnis des Ausdrucks nicht verwendet. War "=" gemeint?
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(596,15): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Map.cpp(631,15): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+  Room.cpp
+  TextAdventure.cpp
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Textbox.h(28,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(19,12): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(204,38): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(205,57): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(219,38): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(282,61): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(322,21): warning C4305: "=": Verkürzung von "double" in "float"
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(332,15): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(333,15): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(335,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(340,18): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(347,67): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(550,18): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(731,14): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(732,14): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(734,14): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(738,17): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(740,56): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(742,34): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(766,32): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(779,25): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(779,18): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(780,26): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(780,18): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(781,24): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(781,18): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(782,22): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\TextAdventure.cpp(782,16): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+  main.cpp
+C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\Textbox.h(28,1): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  Code wird generiert...
+  TextAdventureraylib.vcxproj -> C:\Users\d.ruff\Desktop\Arbeitsaufträge\TextAdventure\TextAdventureRaylib\TextAdventureraylib\x64\Debug\TextAdventureraylib.exe
