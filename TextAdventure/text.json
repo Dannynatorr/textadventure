@@ -1,0 +1,215 @@
+{
+  "texts": {
+
+    "test": {
+      "text": [
+        "das ist ein text",
+        "das ist ein anderer text",
+        "Texte sind wirklich toll, findest du nicht auch?"
+      ],
+      "options": [
+        [ "ja", "room" ],
+        [ "nein", "2" ],
+        [ "eventuell", "2" ],
+        [ "kann sein", "3" ],
+        [ "test", "2" ]
+      ]
+    },
+    "/": {
+      "text": [
+        "Du entscheidest dich gegen eine Wand zu laufen",
+        "Alles ok bei dir?"
+      ],
+      "next": "room"
+    },
+
+    "room": {
+      "text": [ "In welche Richtung soll es gehen?" ],
+      "options": [
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "pickedBob": {
+      "text": [
+        "Du erinnerst dich. Dein Name war Bob.",
+        "Auf dem Weg nach Hause bist du von der Klippe gestuerzt",
+        "Du machst dich auf den Weg...",
+        "...aber wohin gehst du? "
+      ],
+      "next": "room"
+    },
+    "pickedJesus": {
+      "text": [
+        "Du erinnerst dich. Dein Name war Jesus.",
+        "Du bist der coole dude der Wasser zu Wein machen kann",
+        "Bevor du dich auf den Weg machst, beruehrst du die Pfuetze\nund nimmst einen Schluck Wein",
+        "Betrunken machst du dich auf den Weg...",
+        "...aber wohin gehst du? "
+      ],
+      "next": "room"
+    },
+    "characterSelect": {
+      "text": [
+        "Du wachst in einer unbekannten Gegend auf.\nVerwirrt schaust du dich um.",
+        "In einer Pfuetze siehst du die Reflektion deines Gesichts.",
+        "Dein Name war..."
+      ],
+      "options": [
+        [ "Bob", "bob" ],
+        [ "Jesus", "jesus" ]
+      ]
+    },
+    "shop": {
+      "text": [
+        "Willkommen im Shop!",
+        "Was koennen wir fuer dich tun?"
+      ],
+      "options": [
+        [ "Heilen [ 20$ ]", "shop-heilung" ],
+        [ "Schwert [100$]", "shop-schwert" ],
+        [ "Verlassen", "shop-done" ]
+      ]
+    },
+    "shop-heilung-erfolg": {
+      "text": [ "Danke fuer ihren Einkauf!" ],
+      "next": "shop"
+    },
+    "shop-heilung-volleLeben": {
+      "text": [ "Schmeis bitte nicht dein Geld aus dem Fenster raus\nDanke" ],
+      "next": "shop"
+    },
+    "shop-heilung-noMoney": {
+      "text": [ "Du hast nicht genuegend Kohle!" ],
+      "next": "shop"
+    },
+    "shop-schwert-jesus": {
+      "text": [ "Du brauchst kein Schwert Jesus!" ],
+      "next": "shop"
+    },
+    "shop-schwert-erfolg": {
+      "text": [ "Danke fuer ihren Einkauf!" ],
+      "next": "shop"
+    },
+    "shop-schwert-noMoney": {
+      "text": [ "Du hast nicht genuegend Kohle!" ],
+      "next": "shop"
+    },
+    "gameOver": {
+      "text": [
+        "Tja, du hast verloren",
+        "Moechtest du von vorn anfangen?"
+      ],
+      "options": [
+        [ "JA", "newGame" ],
+        [ "NOPE", "quit" ]
+      ]
+    },
+    "battle-start": {
+      "text": [ "Ein Gegner greift dich an!" ],
+      "next": "battle"
+    },
+    "battle": {
+      "text": [ "Was gedenkst du zu tun?" ],
+      "options": [
+        [ "Angriff", "attack" ],
+        [ "Schild", "shield" ],
+        [ "Fliehen", "flee" ]
+      ]
+    },
+    "attack": {
+      "text": [ "Du greifst an!" ],
+      "next": "enemy-attack"
+    },
+    "crit-attack": {
+      "text": [ "Ein kritischer Treffer!" ],
+      "next": "enemy-attack"
+    },
+    "shield-absorb": {
+      "text": [ "Du haelst eine defensive Stellung ein.", "Du absorbierst einen Teil des Angriffs." ],
+      "next": "enemy-attack"
+    },
+    "shielding": {
+      "text": [ "Du haelst eine defensive Stellung ein", "Du nimmst weniger schaden" ],
+      "next": "enemy-attack"
+    },
+    "flee-success": {
+      "text": [ "Du konntest entkommen!" ],
+      "next": "room"
+    },
+    "flee-failed": {
+      "text": [ "Du versuchst zu entkommen. \nAber du scheiterst!" ],
+      "next": "enemy-attack"
+    },
+    "enemy-attack": {
+      "text": [ "Dein Gegner greift dich an!" ],
+      "next": "battle"
+    },
+    "enemy-defeated": {
+      "text": [ "Der Gegner wurde besiegt!" ],
+      "next": "room"
+    },
+    "exit": {
+      "text": [ "Du findest einen Weg nach oben.", "Moechtest du fortfahren?" ],
+      "options": [
+        [ "Ja nach oben", "next-floor" ],
+        [ "Nein", "explore-further" ]
+      ]
+    },
+    "game-won": {
+      "text": [ "Du hast es geschafft!", "Du hast den Weg nach Hause gefunden", "Herzlichen Glueckwunsch" ],
+      "options": [ [ "Nochmal Spielen", "newGame" ] ]
+    }
+
+  },
+  "chars": {
+
+    "bob": {
+      "description": "...BOB.",
+      "hp": 200,
+      "atk": 5,
+      "def": 10,
+      "money": 20
+    },
+    "jesus": {
+      "description": "...JESUS.",
+      "hp": 300,
+      "atk": 20,
+      "def": 20,
+      "money":  20
+
+    }
+  },
+  "enemies": {
+    "slime": {
+      "name": "Slime",
+      "hp": 10,
+      "atk": 5,
+      "def": 15,
+      "money": 10
+
+    },
+    "bat": {
+      "name": "Bat",
+      "hp": 20,
+      "atk": 15,
+      "def": 5,
+      "money": 20
+    },
+    "dragon": {
+      "name": "Dragon",
+      "hp": 50,
+      "atk": 30,
+      "def": 20,
+      "money": 40
+    }
+  }
+
+  
+  
+
+
+
+}
